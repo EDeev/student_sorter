@@ -1,0 +1,15 @@
+D:\Visual Studio\Code\InvestWinApp\InvestWinApp\x64\Debug\InvestWinApp.vcxproj.AssemblyReference.cache
+D:\Visual Studio\Code\InvestWinApp\InvestWinApp\x64\Debug\InvestWinApp.vcxproj.SuggestedBindingRedirects.cache
+D:\Visual Studio\Code\InvestWinApp\InvestWinApp\x64\Debug\InvestWinApp.MyForm.resources
+D:\Visual Studio\Code\InvestWinApp\InvestWinApp\x64\Debug\InvestWinApp.vcxproj.GenerateResource.cache
+D:\Visual Studio\Code\QuestApplicant\InvestWinApp\x64\Debug\InvestWinApp.vcxproj.AssemblyReference.cache
+D:\Visual Studio\Code\QuestApplicant\InvestWinApp\x64\Debug\InvestWinApp.vcxproj.SuggestedBindingRedirects.cache
+D:\Visual Studio\Code\QuestApplicant\InvestWinApp\x64\Debug\InvestWinApp.AddApplicant.resources
+D:\Visual Studio\Code\QuestApplicant\InvestWinApp\x64\Debug\InvestWinApp.MyForm.resources
+D:\Visual Studio\Code\QuestApplicant\InvestWinApp\x64\Debug\InvestWinApp.vcxproj.GenerateResource.cache
+D:\Visual Studio\Code\QuestApplicant\InvestWinApp\x64\Debug\InvestWinApp.vcxproj.CopyComplete
+D:\YandexDisk\Рабочее пространство\Универ\!Жизнь Студента\[1 курс]\2 семестр\ООП\Курсовая\Итог\QuestApplicant\InvestWinApp\x64\Debug\InvestWinApp.vcxproj.AssemblyReference.cache
+D:\YandexDisk\Рабочее пространство\Универ\!Жизнь Студента\[1 курс]\2 семестр\ООП\Курсовая\Итог\QuestApplicant\InvestWinApp\x64\Debug\InvestWinApp.AddApplicant.resources
+D:\YandexDisk\Рабочее пространство\Универ\!Жизнь Студента\[1 курс]\2 семестр\ООП\Курсовая\Итог\QuestApplicant\InvestWinApp\x64\Debug\InvestWinApp.MyForm.resources
+D:\YandexDisk\Рабочее пространство\Универ\!Жизнь Студента\[1 курс]\2 семестр\ООП\Курсовая\Итог\QuestApplicant\InvestWinApp\x64\Debug\InvestWinApp.vcxproj.GenerateResource.cache
+D:\YandexDisk\Рабочее пространство\Универ\!Жизнь Студента\[1 курс]\2 семестр\ООП\Курсовая\Итог\QuestApplicant\InvestWinApp\x64\Debug\InvestWinApp.vcxproj.CopyComplete
