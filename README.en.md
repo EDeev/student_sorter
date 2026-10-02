@@ -4,8 +4,8 @@
 
 [![CI](https://github.com/EDeev/student_sorter/actions/workflows/ci.yml/badge.svg)](https://github.com/EDeev/student_sorter/actions/workflows/ci.yml)
 
-A coursework Windows app for an admissions office: it keeps a list of applicants, sorts it by different
-fields and produces a list of non-local applicants who need a dormitory.
+A coursework Windows app for an admissions office: it keeps a list of applicants, shows it filtered by
+programme and produces a list of non-local applicants who need a dormitory.
 
 **Status:** coursework (Ryazan State Radio Engineering University, 2024), completed
 
@@ -14,7 +14,8 @@ fields and produces a list of non-local applicants who need a dormitory.
 ## Features
 
 - Adding an applicant: full name, address, benefits, exam score, programme
-- Applicant table sorted by surname, score, programme and benefits
+- Applicant table filtered by programme
+- Chart: share of applicants with benefits
 - Dormitory list: everyone registered outside Ryazan goes to `stud.txt` (format: [examples/stud.txt](examples/stud.txt), fictional names)
 - The list is kept between runs in `applis.dat`
 
