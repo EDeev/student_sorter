@@ -13,16 +13,23 @@ ranks programmes and produces a list of non-local applicants who need a dormitor
 
 ## Features
 
-- Adding an applicant: full name, address, benefits, exam score, programme
-- Applicant table with column sorting and a programme filter
-- Programmes ranked by popularity, local vs non-local applicants
-- Chart: share of applicants with benefits
-- Dormitory list: everyone registered outside Ryazan goes to `stud.txt` (format: [examples/stud.txt](examples/stud.txt), fictional names)
-- The list is kept between runs in `applis.dat`
+- **Applicant table** with sorting by any field (click a column header) and a programme filter
+- **Adding an applicant** in a separate form with input validation
+- **Dormitory need** is determined from the registered address: everyone registered outside Ryazan goes
+  to the `stud.txt` report (format: [examples/stud.txt](examples/stud.txt), fictional names)
+- **Statistics:** programmes ranked by popularity, local vs non-local applicants, a chart of the share
+  of applicants with benefits
+- **Autosave:** the list is kept in `applis.dat` (serialized with the course library RSREU.IO)
+
+An applicant is the `Applicant` struct in `config.h`: surname, name, patronymic, registered address,
+benefit, exam score, programme.
 
 ## Building
 
-1. Open `InvestWinApp.sln` in Visual Studio 2022 with the "C++/CLI support" component.
+Requires Windows 10/11, Visual Studio 2019 or 2022 with MSVC v143 tools and C++/CLI support, and
+.NET Framework 4.8.
+
+1. Open `InvestWinApp.sln`.
 2. Put the course library `RSREU.IO.dll` into `InvestWinApp/x64/Debug/` (it is not in the repository; it
    was provided by the course).
 3. Build the x64 configuration.
