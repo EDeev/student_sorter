@@ -6,14 +6,13 @@ on:
   pull_request:
 
 jobs:
-  build:
-    runs-on: windows-latest
+  sources:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: microsoft/setup-msbuild@v2
-      - name: Сборка (C++/CLI, .NET Framework 4.8)
-        run: msbuild InvestWinApp.sln /p:Configuration=Release /p:Platform=x64 /m
-      - uses: actions/upload-artifact@v4
-        with:
-          name: InvestWinApp
-          path: x64/Release/*.exe
+      # Полная сборка требует вузовской библиотеки RSREU.IO, которой нет в репозитории
+      - name: Исходники в UTF-8
+        run: |
+          for f in InvestWinApp/*.h InvestWinApp/*.cpp; do
+            iconv -f utf-8 -t utf-8 "$f" > /dev/null || { echo "не UTF-8: $f"; exit 1; }
+          done
