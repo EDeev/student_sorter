@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 
 namespace InvestWinApp {
 
@@ -10,7 +10,7 @@ namespace InvestWinApp {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для AddApplicant
+	/// РЎРІРѕРґРєР° РґР»СЏ AddApplicant
 	/// </summary>
 	public ref class AddApplicant : public System::Windows::Forms::Form
 	{
@@ -19,13 +19,13 @@ namespace InvestWinApp {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: РґРѕР±Р°РІСЊС‚Рµ РєРѕРґ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// РћСЃРІРѕР±РѕРґРёС‚СЊ РІСЃРµ РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ СЂРµСЃСѓСЂСЃС‹.
 		/// </summary>
 		~AddApplicant()
 		{
@@ -82,14 +82,14 @@ namespace InvestWinApp {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// РћР±СЏР·Р°С‚РµР»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°.
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// РўСЂРµР±СѓРµРјС‹Р№ РјРµС‚РѕРґ РґР»СЏ РїРѕРґРґРµСЂР¶РєРё РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР° вЂ” РЅРµ РёР·РјРµРЅСЏР№С‚Рµ 
+		/// СЃРѕРґРµСЂР¶РёРјРѕРµ СЌС‚РѕРіРѕ РјРµС‚РѕРґР° СЃ РїРѕРјРѕС‰СЊСЋ СЂРµРґР°РєС‚РѕСЂР° РєРѕРґР°.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -171,7 +171,7 @@ namespace InvestWinApp {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(161, 16);
 			this->label2->TabIndex = 1;
-			this->label2->Text = L"Фамилия Имя Отчество";
+			this->label2->Text = L"Р¤Р°РјРёР»РёСЏ РРјСЏ РћС‚С‡РµСЃС‚РІРѕ";
 			// 
 			// label3
 			// 
@@ -182,7 +182,7 @@ namespace InvestWinApp {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(47, 16);
 			this->label3->TabIndex = 2;
-			this->label3->Text = L"Адрес";
+			this->label3->Text = L"РђРґСЂРµСЃ";
 			// 
 			// label4
 			// 
@@ -193,7 +193,7 @@ namespace InvestWinApp {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(52, 16);
 			this->label4->TabIndex = 3;
-			this->label4->Text = L"Льгота";
+			this->label4->Text = L"Р›СЊРіРѕС‚Р°";
 			// 
 			// label5
 			// 
@@ -204,7 +204,7 @@ namespace InvestWinApp {
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(99, 16);
 			this->label5->TabIndex = 4;
-			this->label5->Text = L"Баллы по ЕГЭ";
+			this->label5->Text = L"Р‘Р°Р»Р»С‹ РїРѕ Р•Р“Р­";
 			// 
 			// label9
 			// 
@@ -215,7 +215,7 @@ namespace InvestWinApp {
 			this->label9->Name = L"label9";
 			this->label9->Size = System::Drawing::Size(140, 16);
 			this->label9->TabIndex = 8;
-			this->label9->Text = L"Номер направления";
+			this->label9->Text = L"РќРѕРјРµСЂ РЅР°РїСЂР°РІР»РµРЅРёСЏ";
 			// 
 			// scoreBox
 			// 
@@ -297,7 +297,7 @@ namespace InvestWinApp {
 			this->benefitNo->Size = System::Drawing::Size(53, 20);
 			this->benefitNo->TabIndex = 0;
 			this->benefitNo->TabStop = true;
-			this->benefitNo->Text = L"Нет";
+			this->benefitNo->Text = L"РќРµС‚";
 			this->benefitNo->UseVisualStyleBackColor = true;
 			this->benefitNo->Click += gcnew System::EventHandler(this, &AddApplicant::benefitNo_Click);
 			// 
@@ -321,7 +321,7 @@ namespace InvestWinApp {
 			this->btn_add->Name = L"btn_add";
 			this->btn_add->Size = System::Drawing::Size(492, 65);
 			this->btn_add->TabIndex = 6;
-			this->btn_add->Text = L"Добавить";
+			this->btn_add->Text = L"Р”РѕР±Р°РІРёС‚СЊ";
 			this->btn_add->UseVisualStyleBackColor = false;
 			this->btn_add->Click += gcnew System::EventHandler(this, &AddApplicant::btn_add_Click);
 			// 
@@ -348,10 +348,10 @@ namespace InvestWinApp {
 		}
 #pragma endregion
 private: System::Void btn_add_Click(System::Object^ sender, System::EventArgs^ e) {
-	// вычисление id абонента
+	// РІС‹С‡РёСЃР»РµРЅРёРµ id Р°Р±РѕРЅРµРЅС‚Р°
 	List<Applicant^>^ data = ReadWrite::Load<List<Applicant^>^>("applis.dat");
 
-	// получение данных
+	// РїРѕР»СѓС‡РµРЅРёРµ РґР°РЅРЅС‹С…
 	List<Applicant^>^ abit = gcnew List<Applicant^>;
 	abit->Add(gcnew Applicant);
 
@@ -363,18 +363,18 @@ private: System::Void btn_add_Click(System::Object^ sender, System::EventArgs^ e
 
 		abit[0]->address = addressBox->Text;
 
-		if (benefitNo->Checked) abit[0]->benefit = "Нет";
+		if (benefitNo->Checked) abit[0]->benefit = "РќРµС‚";
 		else abit[0]->benefit = benefitYes->Text;
 
 		abit[0]->score_UGE = Convert::ToInt32(scoreBox->Text);
 		abit[0]->trend = trendBox->Text;
 
-		// запись в файл
+		// Р·Р°РїРёСЃСЊ РІ С„Р°Р№Р»
 		writeInFile(abit);
 	}
-	catch (...) { MessageBox::Show("Некорректный ввод!"); flag = false; }
+	catch (...) { MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!"); flag = false; }
 
-	// очистка формы
+	// РѕС‡РёСЃС‚РєР° С„РѕСЂРјС‹
 	if (flag) {
 		sernameBox->Clear();
 		nameBox->Clear();

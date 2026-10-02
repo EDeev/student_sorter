@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include <iostream>
 #include <stdio.h>
 #include <fstream>
@@ -37,7 +37,7 @@ namespace InvestWinApp {
 
 
 	private: System::Windows::Forms::ToolStripMenuItem^ toolTable;
-	private: System::Windows::Forms::ToolStripMenuItem^ обновитьТаблицуToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ РѕР±РЅРѕРІРёС‚СЊРўР°Р±Р»РёС†СѓToolStripMenuItem;
 
 
 
@@ -62,7 +62,7 @@ namespace InvestWinApp {
 	private: System::Windows::Forms::Button^ top_btn;
 	private: System::Windows::Forms::Button^ after_btn;
 	private: System::Windows::Forms::ComboBox^ comboBox;
-	private: System::Windows::Forms::ToolStripMenuItem^ добавитьАбитуриентаToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ РґРѕР±Р°РІРёС‚СЊРђР±РёС‚СѓСЂРёРµРЅС‚Р°ToolStripMenuItem;
 	private: System::Windows::Forms::DataGridViewTextBoxColumn^ surname;
 	private: System::Windows::Forms::DataGridViewTextBoxColumn^ name;
 	private: System::Windows::Forms::DataGridViewTextBoxColumn^ patro;
@@ -70,7 +70,7 @@ namespace InvestWinApp {
 	private: System::Windows::Forms::DataGridViewTextBoxColumn^ benefits;
 	private: System::Windows::Forms::DataGridViewTextBoxColumn^ scores;
 	private: System::Windows::Forms::DataGridViewTextBoxColumn^ trend;
-	private: System::Windows::Forms::ToolStripMenuItem^ наОбщежитиеToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ РЅР°РћР±С‰РµР¶РёС‚РёРµToolStripMenuItem;
 
 
 
@@ -240,13 +240,13 @@ namespace InvestWinApp {
 			InitializeComponent();
 
 			//
-			//TODO: добавьте код конструктора
+			//TODO: РґРѕР±Р°РІСЊС‚Рµ РєРѕРґ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// РћСЃРІРѕР±РѕРґРёС‚СЊ РІСЃРµ РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ СЂРµСЃСѓСЂСЃС‹.
 		/// </summary>
 		~MyForm()
 		{
@@ -257,14 +257,14 @@ namespace InvestWinApp {
 		}
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// РћР±СЏР·Р°С‚РµР»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°.
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// РўСЂРµР±СѓРµРјС‹Р№ РјРµС‚РѕРґ РґР»СЏ РїРѕРґРґРµСЂР¶РєРё РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР° вЂ” РЅРµ РёР·РјРµРЅСЏР№С‚Рµ 
+		/// СЃРѕРґРµСЂР¶РёРјРѕРµ СЌС‚РѕРіРѕ РјРµС‚РѕРґР° СЃ РїРѕРјРѕС‰СЊСЋ СЂРµРґР°РєС‚РѕСЂР° РєРѕРґР°.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -286,9 +286,9 @@ namespace InvestWinApp {
 			this->main_ico = (gcnew System::Windows::Forms::PictureBox());
 			this->menu = (gcnew System::Windows::Forms::MenuStrip());
 			this->toolTable = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->обновитьТаблицуToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->добавитьАбитуриентаToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->наОбщежитиеToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->РѕР±РЅРѕРІРёС‚СЊРўР°Р±Р»РёС†СѓToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->РґРѕР±Р°РІРёС‚СЊРђР±РёС‚СѓСЂРёРµРЅС‚Р°ToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->РЅР°РћР±С‰РµР¶РёС‚РёРµToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->tableLayoutPanel1 = (gcnew System::Windows::Forms::TableLayoutPanel());
 			this->gridTable = (gcnew System::Windows::Forms::DataGridView());
 			this->surname = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
@@ -455,34 +455,34 @@ namespace InvestWinApp {
 			// toolTable
 			// 
 			this->toolTable->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(3) {
-				this->обновитьТаблицуToolStripMenuItem,
-					this->добавитьАбитуриентаToolStripMenuItem, this->наОбщежитиеToolStripMenuItem
+				this->РѕР±РЅРѕРІРёС‚СЊРўР°Р±Р»РёС†СѓToolStripMenuItem,
+					this->РґРѕР±Р°РІРёС‚СЊРђР±РёС‚СѓСЂРёРµРЅС‚Р°ToolStripMenuItem, this->РЅР°РћР±С‰РµР¶РёС‚РёРµToolStripMenuItem
 			});
 			this->toolTable->ForeColor = System::Drawing::Color::White;
 			this->toolTable->Name = L"toolTable";
 			this->toolTable->Size = System::Drawing::Size(82, 24);
-			this->toolTable->Text = L"Таблица";
+			this->toolTable->Text = L"РўР°Р±Р»РёС†Р°";
 			// 
-			// обновитьТаблицуToolStripMenuItem
+			// РѕР±РЅРѕРІРёС‚СЊРўР°Р±Р»РёС†СѓToolStripMenuItem
 			// 
-			this->обновитьТаблицуToolStripMenuItem->Name = L"обновитьТаблицуToolStripMenuItem";
-			this->обновитьТаблицуToolStripMenuItem->Size = System::Drawing::Size(251, 26);
-			this->обновитьТаблицуToolStripMenuItem->Text = L"Обновить таблицу";
-			this->обновитьТаблицуToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::обновитьТаблицуToolStripMenuItem_Click);
+			this->РѕР±РЅРѕРІРёС‚СЊРўР°Р±Р»РёС†СѓToolStripMenuItem->Name = L"РѕР±РЅРѕРІРёС‚СЊРўР°Р±Р»РёС†СѓToolStripMenuItem";
+			this->РѕР±РЅРѕРІРёС‚СЊРўР°Р±Р»РёС†СѓToolStripMenuItem->Size = System::Drawing::Size(251, 26);
+			this->РѕР±РЅРѕРІРёС‚СЊРўР°Р±Р»РёС†СѓToolStripMenuItem->Text = L"РћР±РЅРѕРІРёС‚СЊ С‚Р°Р±Р»РёС†Сѓ";
+			this->РѕР±РЅРѕРІРёС‚СЊРўР°Р±Р»РёС†СѓToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::РѕР±РЅРѕРІРёС‚СЊРўР°Р±Р»РёС†СѓToolStripMenuItem_Click);
 			// 
-			// добавитьАбитуриентаToolStripMenuItem
+			// РґРѕР±Р°РІРёС‚СЊРђР±РёС‚СѓСЂРёРµРЅС‚Р°ToolStripMenuItem
 			// 
-			this->добавитьАбитуриентаToolStripMenuItem->Name = L"добавитьАбитуриентаToolStripMenuItem";
-			this->добавитьАбитуриентаToolStripMenuItem->Size = System::Drawing::Size(251, 26);
-			this->добавитьАбитуриентаToolStripMenuItem->Text = L"Добавить абитуриента";
-			this->добавитьАбитуриентаToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::добавитьАбитуриентаToolStripMenuItem_Click);
+			this->РґРѕР±Р°РІРёС‚СЊРђР±РёС‚СѓСЂРёРµРЅС‚Р°ToolStripMenuItem->Name = L"РґРѕР±Р°РІРёС‚СЊРђР±РёС‚СѓСЂРёРµРЅС‚Р°ToolStripMenuItem";
+			this->РґРѕР±Р°РІРёС‚СЊРђР±РёС‚СѓСЂРёРµРЅС‚Р°ToolStripMenuItem->Size = System::Drawing::Size(251, 26);
+			this->РґРѕР±Р°РІРёС‚СЊРђР±РёС‚СѓСЂРёРµРЅС‚Р°ToolStripMenuItem->Text = L"Р”РѕР±Р°РІРёС‚СЊ Р°Р±РёС‚СѓСЂРёРµРЅС‚Р°";
+			this->РґРѕР±Р°РІРёС‚СЊРђР±РёС‚СѓСЂРёРµРЅС‚Р°ToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::РґРѕР±Р°РІРёС‚СЊРђР±РёС‚СѓСЂРёРµРЅС‚Р°ToolStripMenuItem_Click);
 			// 
-			// наОбщежитиеToolStripMenuItem
+			// РЅР°РћР±С‰РµР¶РёС‚РёРµToolStripMenuItem
 			// 
-			this->наОбщежитиеToolStripMenuItem->Name = L"наОбщежитиеToolStripMenuItem";
-			this->наОбщежитиеToolStripMenuItem->Size = System::Drawing::Size(251, 26);
-			this->наОбщежитиеToolStripMenuItem->Text = L"На общежитие";
-			this->наОбщежитиеToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::наОбщежитиеToolStripMenuItem_Click);
+			this->РЅР°РћР±С‰РµР¶РёС‚РёРµToolStripMenuItem->Name = L"РЅР°РћР±С‰РµР¶РёС‚РёРµToolStripMenuItem";
+			this->РЅР°РћР±С‰РµР¶РёС‚РёРµToolStripMenuItem->Size = System::Drawing::Size(251, 26);
+			this->РЅР°РћР±С‰РµР¶РёС‚РёРµToolStripMenuItem->Text = L"РќР° РѕР±С‰РµР¶РёС‚РёРµ";
+			this->РЅР°РћР±С‰РµР¶РёС‚РёРµToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::РЅР°РћР±С‰РµР¶РёС‚РёРµToolStripMenuItem_Click);
 			// 
 			// tableLayoutPanel1
 			// 
@@ -531,7 +531,7 @@ namespace InvestWinApp {
 			// 
 			// surname
 			// 
-			this->surname->HeaderText = L"Фамилия";
+			this->surname->HeaderText = L"Р¤Р°РјРёР»РёСЏ";
 			this->surname->MinimumWidth = 6;
 			this->surname->Name = L"surname";
 			this->surname->ReadOnly = true;
@@ -539,7 +539,7 @@ namespace InvestWinApp {
 			// 
 			// name
 			// 
-			this->name->HeaderText = L"Имя";
+			this->name->HeaderText = L"РРјСЏ";
 			this->name->MinimumWidth = 6;
 			this->name->Name = L"name";
 			this->name->ReadOnly = true;
@@ -547,7 +547,7 @@ namespace InvestWinApp {
 			// 
 			// patro
 			// 
-			this->patro->HeaderText = L"Отчество";
+			this->patro->HeaderText = L"РћС‚С‡РµСЃС‚РІРѕ";
 			this->patro->MinimumWidth = 6;
 			this->patro->Name = L"patro";
 			this->patro->ReadOnly = true;
@@ -556,14 +556,14 @@ namespace InvestWinApp {
 			// address
 			// 
 			this->address->AutoSizeMode = System::Windows::Forms::DataGridViewAutoSizeColumnMode::Fill;
-			this->address->HeaderText = L"Адрес";
+			this->address->HeaderText = L"РђРґСЂРµСЃ";
 			this->address->MinimumWidth = 6;
 			this->address->Name = L"address";
 			this->address->ReadOnly = true;
 			// 
 			// benefits
 			// 
-			this->benefits->HeaderText = L"Льгота";
+			this->benefits->HeaderText = L"Р›СЊРіРѕС‚Р°";
 			this->benefits->MinimumWidth = 6;
 			this->benefits->Name = L"benefits";
 			this->benefits->ReadOnly = true;
@@ -571,7 +571,7 @@ namespace InvestWinApp {
 			// 
 			// scores
 			// 
-			this->scores->HeaderText = L"Баллы ЕГЭ";
+			this->scores->HeaderText = L"Р‘Р°Р»Р»С‹ Р•Р“Р­";
 			this->scores->MinimumWidth = 6;
 			this->scores->Name = L"scores";
 			this->scores->ReadOnly = true;
@@ -579,7 +579,7 @@ namespace InvestWinApp {
 			// 
 			// trend
 			// 
-			this->trend->HeaderText = L"Направление";
+			this->trend->HeaderText = L"РќР°РїСЂР°РІР»РµРЅРёРµ";
 			this->trend->MinimumWidth = 6;
 			this->trend->Name = L"trend";
 			this->trend->ReadOnly = true;
@@ -621,10 +621,10 @@ namespace InvestWinApp {
 			series1->Name = L"Series1";
 			dataPoint1->Color = System::Drawing::Color::LawnGreen;
 			dataPoint1->Label = L"#PERCENT{P2}";
-			dataPoint1->LegendText = L"Льгота";
+			dataPoint1->LegendText = L"Р›СЊРіРѕС‚Р°";
 			dataPoint2->Color = System::Drawing::Color::DeepSkyBlue;
 			dataPoint2->Label = L"#PERCENT{P2}";
-			dataPoint2->LegendText = L"На общих.";
+			dataPoint2->LegendText = L"РќР° РѕР±С‰РёС….";
 			series1->Points->Add(dataPoint1);
 			series1->Points->Add(dataPoint2);
 			this->chart->Series->Add(series1);
@@ -693,7 +693,7 @@ namespace InvestWinApp {
 			this->MainMenuStrip = this->menu;
 			this->MinimumSize = System::Drawing::Size(825, 500);
 			this->Name = L"MyForm";
-			this->Text = L"Инвестиции";
+			this->Text = L"РРЅРІРµСЃС‚РёС†РёРё";
 			this->Closed += gcnew System::EventHandler(this, &MyForm::MyForm_Closed);
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			this->main_table->ResumeLayout(false);
@@ -716,7 +716,7 @@ namespace InvestWinApp {
 
 		}
 #pragma endregion
-// отслеживание действий формы
+// РѕС‚СЃР»РµР¶РёРІР°РЅРёРµ РґРµР№СЃС‚РІРёР№ С„РѕСЂРјС‹
 private: System::Void MyForm_Load(System::Object^ sender, System::EventArgs^ e) {
 	main_ico_Click(sender, e);
 }
@@ -728,7 +728,7 @@ private: System::Void MyForm_MouseMove(System::Object^ sender, System::Windows::
 	}
 }
 
-// кнопки взаимодейстия с окном
+// РєРЅРѕРїРєРё РІР·Р°РёРјРѕРґРµР№СЃС‚РёСЏ СЃ РѕРєРЅРѕРј
 private: System::Void close_Click(System::Object^ sender, System::EventArgs^ e) {
 	this->Close();
 }
@@ -745,7 +745,7 @@ private: System::Void wrap_Click(System::Object^ sender, System::EventArgs^ e) {
 	this->WindowState = System::Windows::Forms::FormWindowState::Minimized;
 }
 
-// передвижения окна по экрану
+// РїРµСЂРµРґРІРёР¶РµРЅРёСЏ РѕРєРЅР° РїРѕ СЌРєСЂР°РЅСѓ
 private: System::Void moveWindow_MouseDown(System::Object^ sender, System::Windows::Forms::MouseEventArgs^ e) {
 	mPoint = Point(e->X, e->Y);
 }
@@ -755,7 +755,7 @@ private: System::Void moveWindow_MouseMove(System::Object^ sender, System::Windo
 	}
 }
 
-// обновление таблицы
+// РѕР±РЅРѕРІР»РµРЅРёРµ С‚Р°Р±Р»РёС†С‹
 private: System::Void main_ico_Click(System::Object^ sender, System::EventArgs^ e) {
 	Table(sender, e);
 }
@@ -770,12 +770,12 @@ private: System::Void after_btn_Click(System::Object^ sender, System::EventArgs^
 			MarshalString(data[i]->address, adr);
 			adr = adr.substr(0, adr.find(","));
 
-			if (adr == "г. Рязань") local++;
+			if (adr == "Рі. Р СЏР·Р°РЅСЊ") local++;
 			else unlocal++;
 		}
 
 		double perc = (100 / ((double)data->Count)) * unlocal;
-		MessageBox::Show("Процент иногородних абитуриентов составил " + perc.ToString()->Substring(0, 4) + "%", "Вывод");
+		MessageBox::Show("РџСЂРѕС†РµРЅС‚ РёРЅРѕРіРѕСЂРѕРґРЅРёС… Р°Р±РёС‚СѓСЂРёРµРЅС‚РѕРІ СЃРѕСЃС‚Р°РІРёР» " + perc.ToString()->Substring(0, 4) + "%", "Р’С‹РІРѕРґ");
 	}
 }
 
@@ -807,10 +807,10 @@ private: System::Void top_btn_Click(System::Object^ sender, System::EventArgs^ e
 			}
 		}
 
-		String^ txt = "Перечень направлений по популярности:\n";
-		for (int i = 0; i < nums->Count; i++) txt += (i + 1).ToString() + ". " + nums[i] + " в кол-ве " + nums_i[i].ToString() + "\n";
+		String^ txt = "РџРµСЂРµС‡РµРЅСЊ РЅР°РїСЂР°РІР»РµРЅРёР№ РїРѕ РїРѕРїСѓР»СЏСЂРЅРѕСЃС‚Рё:\n";
+		for (int i = 0; i < nums->Count; i++) txt += (i + 1).ToString() + ". " + nums[i] + " РІ РєРѕР»-РІРµ " + nums_i[i].ToString() + "\n";
 
-		MessageBox::Show(txt, "Вывод");
+		MessageBox::Show(txt, "Р’С‹РІРѕРґ");
 	}
 }
 
@@ -819,7 +819,7 @@ private: System::Void comboBox_SelectedIndexChanged(System::Object^ sender, Syst
 	Chart(sender, e);
 }
 
-// самописные функции
+// СЃР°РјРѕРїРёСЃРЅС‹Рµ С„СѓРЅРєС†РёРё
 private: System::Void Table(System::Object^ sender, System::EventArgs^ e) {
 	gridTable->Rows->Clear();
 	List<Applicant^>^ data = ReadWrite::Load<List<Applicant^>^>("applis.dat");
@@ -851,7 +851,7 @@ private: System::Void Chart(System::Object^ sender, System::EventArgs^ e) {
 		int bYes = 0, bNo = 0;
 
 		for (int i = 0; i < data->Count; i++) {
-			if (data[i]->benefit == "Нет") bNo++;
+			if (data[i]->benefit == "РќРµС‚") bNo++;
 			else bYes++;
 		}
 		double proc = 100 / (double)data->Count;
@@ -862,28 +862,28 @@ private: System::Void Chart(System::Object^ sender, System::EventArgs^ e) {
 		s1->Points->AddY(bYes * proc);
 		s1->Points[0]->Color = System::Drawing::Color::LawnGreen;
 		s1->Points[0]->Label = L"#PERCENT{P2}";
-		s1->Points[0]->LegendText = L"Льгота";
+		s1->Points[0]->LegendText = L"Р›СЊРіРѕС‚Р°";
 
 		s1->Points->AddY(bNo * proc);
 		s1->Points[1]->Color = System::Drawing::Color::DeepSkyBlue;
 		s1->Points[1]->Label = L"#PERCENT{P2}";
-		s1->Points[1]->LegendText = L"На общих.";
+		s1->Points[1]->LegendText = L"РќР° РѕР±С‰РёС….";
 	}
 }
 
-// функции меню
-private: System::Void обновитьТаблицуToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+// С„СѓРЅРєС†РёРё РјРµРЅСЋ
+private: System::Void РѕР±РЅРѕРІРёС‚СЊРўР°Р±Р»РёС†СѓToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
 	Table(sender, e);
-	MessageBox::Show("Таблица успешно обновлена!", "Таблица");
+	MessageBox::Show("РўР°Р±Р»РёС†Р° СѓСЃРїРµС€РЅРѕ РѕР±РЅРѕРІР»РµРЅР°!", "РўР°Р±Р»РёС†Р°");
 }
 
-private: System::Void добавитьАбитуриентаToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+private: System::Void РґРѕР±Р°РІРёС‚СЊРђР±РёС‚СѓСЂРёРµРЅС‚Р°ToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
 	AddApplicant^ prt_data = gcnew AddApplicant();
 	prt_data->ShowDialog();
 
 	Table(sender, e);
 }
-private: System::Void наОбщежитиеToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+private: System::Void РЅР°РћР±С‰РµР¶РёС‚РёРµToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
 	List<Applicant^>^ data = ReadWrite::Load<List<Applicant^>^>("applis.dat");
 
 	if (data) {
@@ -893,12 +893,12 @@ private: System::Void наОбщежитиеToolStripMenuItem_Click(System::Object^ sender,
 			MarshalString(data[i]->address, adr);
 			adr = adr.substr(0, adr.find(","));
 
-			if (adr != "г. Рязань") {
+			if (adr != "Рі. Р СЏР·Р°РЅСЊ") {
 				txt += data[i]->surname + " " + data[i]->name + " " + data[i]->patro + " " + data[i]->benefit + " " + data[i]->trend + "\n";
 			}
 		}
 		System::IO::File::WriteAllText("stud.txt", txt);
-		MessageBox::Show("Файл успешно записан!", "Уведомление");
+		MessageBox::Show("Р¤Р°Р№Р» СѓСЃРїРµС€РЅРѕ Р·Р°РїРёСЃР°РЅ!", "РЈРІРµРґРѕРјР»РµРЅРёРµ");
 		system("notepad stud.txt");
 	}
 }
