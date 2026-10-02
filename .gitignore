@@ -1,0 +1,12 @@
+# Visual Studio
+.vs/
+x64/
+Debug/
+Release/
+*.user
+
+# Рабочие файлы программы
+InvestWinApp/applis.dat
+InvestWinApp/stud.txt
+applis.dat
+stud.txt
